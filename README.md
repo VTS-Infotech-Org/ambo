@@ -27,7 +27,7 @@ GitHub and served directly from **GitHub Pages**.
 ├── js/main.js                       # shared header/footer + interactions
 ├── img/
 │   ├── logo/   ambo-logo.png, favicon.png
-│   ├── hero/   products-spread.png
+│   ├── hero/   products-hero.png
 │   └── photos/ fmcg-company.png, team-group.png, tech-dashboard.png
 ├── assets/                          # original reference design images
 ├── .nojekyll                        # tells GitHub Pages to skip Jekyll
