@@ -78,5 +78,5 @@ All links are relative, so the site works correctly from a project subpath
 - Fonts (Poppins, Inter) load from Google Fonts via CDN.
 - The contact form is front-end only (shows a success message); wire it to a form service
   (e.g. Formspree) or backend to receive submissions.
-- Text, statistics and team names are illustrative placeholders based on the reference design —
+- Text, statistics and team names are illustrative placeholders based on the reference design -
   replace with final approved content before going live.
