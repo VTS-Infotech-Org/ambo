@@ -3,8 +3,8 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Our Products — AMBO Retail India</title>
-  <meta name="description" content="Explore AMBO's complete range of everyday essentials — edible oils, ghee, staples, pulses, snacks, personal care and more.">
+  <title>Our Brand & Products — AMBO Retail India</title>
+  <meta name="description" content="Quality products for every home — AMBO edible oils, ghee, staples, pulses, snacks, biscuits, personal care, oral care and beverages.">
   <link rel="icon" type="image/png" href="img/logo/favicon.png">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -14,91 +14,115 @@
 <body>
   <div id="site-header" data-active="products"></div>
 
-  <section class="page-hero">
+  <!-- ============ HERO ============ -->
+  <section class="hero prod">
+    <div class="hero-bg"></div>
     <div class="container">
-      <div class="page-hero-grid">
-        <div class="reveal">
-          <div class="crumb"><a href="index.html">Home</a> / Our Products</div>
-          <div class="eyebrow">Our Brand &amp; Products</div>
-          <h1>Quality Products for <span class="red">Every Home.</span></h1>
-          <p>At AMBO, we create high-quality everyday products that bring value, taste and care to your life — trusted by millions, every day.</p>
-          <a href="#range" class="btn btn-red" style="margin-top:26px">Explore Our Range <svg class="arr" viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg></a>
+      <div class="hero-grid">
+        <div class="hero-copy reveal">
+          <h1 class="h-stack">
+            <span class="t-navy">Our Brand</span>
+            <span class="red">and Products</span>
+          </h1>
+          <p class="lead">Quality products for every home.<br>Trusted by millions, every day.</p>
+          <p class="desc">At AMBO, we create high-quality everyday products that bring value, taste and care to your life.</p>
         </div>
-        <div class="reveal"><img src="img/hero/products-hero.png" alt="AMBO complete product range"></div>
+        <div class="hero-visual reveal">
+          <img src="img/extracted/products-platter.png" alt="AMBO product range on a platter">
+        </div>
       </div>
     </div>
   </section>
 
-  <!-- FILTER + GRID -->
-  <section class="section" id="range">
+  <!-- ============ CATEGORY TABS ============ -->
+  <section class="section section-sm">
     <div class="container">
-      <div class="section-head text-center reveal">
-        <div class="eyebrow">Explore Our Range</div>
-        <h2 class="section-title">A Category for <span class="red">Every Need</span></h2>
-      </div>
-      <div class="cat-pills reveal">
-        <button class="cat-pill active" data-filter="all">All Products</button>
-        <button class="cat-pill" data-filter="oil">Edible Oils</button>
-        <button class="cat-pill" data-filter="ghee">Ghee</button>
-        <button class="cat-pill" data-filter="staples">Staples</button>
-        <button class="cat-pill" data-filter="pulses">Pulses</button>
-        <button class="cat-pill" data-filter="snacks">Snacks &amp; Namkeen</button>
-        <button class="cat-pill" data-filter="sweets">Sweets &amp; Cakes</button>
-        <button class="cat-pill" data-filter="care">Personal Care</button>
-        <button class="cat-pill" data-filter="oral">Oral Care</button>
-        <button class="cat-pill" data-filter="bev">Beverages</button>
-      </div>
-      <div class="product-grid reveal">
-        <div class="product-card" data-cat="oil"><div class="pc-ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M8 2h8M9 2v4l-3 5v9a2 2 0 0 0 2 2h8a2 2 0 0 0 2-2v-9l-3-5V2"/></svg></div><h4>Refined Soybean Oil</h4><p>Light, healthy cooking oil</p><span class="tag">Edible Oils</span></div>
-        <div class="product-card" data-cat="ghee"><div class="pc-ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M5 8h14l-1 12a2 2 0 0 1-2 2H8a2 2 0 0 1-2-2z"/><path d="M5 8a7 7 0 0 1 14 0"/></svg></div><h4>AMBO Cow Ghee</h4><p>Pure, aromatic desi ghee</p><span class="tag">Ghee</span></div>
-        <div class="product-card" data-cat="staples"><div class="pc-ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M3 12h18M5 12c0-4 3-7 7-7s7 3 7 7"/><path d="M7 12v6a2 2 0 0 0 2 2h6a2 2 0 0 0 2-2v-6"/></svg></div><h4>Premium Basmati Rice</h4><p>XXXL long-grain basmati</p><span class="tag">Staples</span></div>
-        <div class="product-card" data-cat="staples"><div class="pc-ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><circle cx="12" cy="12" r="9"/><path d="M12 3v18M3 12h18"/></svg></div><h4>Shakti Chakki Atta</h4><p>Fresh whole-wheat atta</p><span class="tag">Staples</span></div>
-        <div class="product-card" data-cat="pulses"><div class="pc-ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><circle cx="7" cy="9" r="2"/><circle cx="14" cy="7" r="2"/><circle cx="17" cy="14" r="2"/><circle cx="10" cy="15" r="2"/></svg></div><h4>Moong Dal</h4><p>Protein-rich pulses</p><span class="tag">Pulses</span></div>
-        <div class="product-card" data-cat="snacks"><div class="pc-ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M4 6h16v3a8 8 0 0 1-16 0z"/><path d="M6 18h12"/></svg></div><h4>Premium Namkeen</h4><p>Crunchy traditional namkeen</p><span class="tag">Snacks</span></div>
-        <div class="product-card" data-cat="snacks"><div class="pc-ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><circle cx="12" cy="12" r="9"/><circle cx="12" cy="12" r="3"/></svg></div><h4>AMBO Rings &amp; Puffs</h4><p>Light, tasty snacks</p><span class="tag">Snacks</span></div>
-        <div class="product-card" data-cat="snacks"><div class="pc-ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M4 6h16v3a8 8 0 0 1-16 0z"/><path d="M6 18h12"/></svg></div><h4>All-in-One Mixture</h4><p>Classic namkeen mix</p><span class="tag">Snacks</span></div>
-        <div class="product-card" data-cat="sweets"><div class="pc-ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M4 21h16M6 21v-7h12v7M8 14a4 4 0 0 1 8 0M12 3v3"/></svg></div><h4>Sweets &amp; Cakes</h4><p>Festive treats &amp; cakes</p><span class="tag">Sweets</span></div>
-        <div class="product-card" data-cat="care"><div class="pc-ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M6 2h12v6a6 6 0 0 1-12 0z"/><path d="M9 14v6h6v-6"/></svg></div><h4>AMBO Deep Shampoo</h4><p>Nourishing daily care</p><span class="tag">Personal Care</span></div>
-        <div class="product-card" data-cat="oral"><div class="pc-ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M12 2c-3 4-6 6-6 11a6 6 0 0 0 12 0c0-5-3-7-6-11z"/></svg></div><h4>Mint Fresh Toothpaste</h4><p>All-day fresh breath</p><span class="tag">Oral Care</span></div>
-        <div class="product-card" data-cat="bev"><div class="pc-ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M9 2h6v3l-1 2v13a2 2 0 0 1-2 2 2 2 0 0 1-2-2V7L9 5z"/></svg></div><h4>Aqua Nova Water</h4><p>Pure packaged drinking water</p><span class="tag">Beverages</span></div>
+      <div class="cat-tabs reveal">
+        <a href="#oils" class="tab active"><span class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7"><path d="M12 2c-3 4-6 6-6 11a6 6 0 0 0 12 0c0-5-3-7-6-11z"/></svg></span><small>Edible Oils</small></a>
+        <a href="#range" class="tab"><span class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7"><path d="M5 8h14l-1 12a2 2 0 0 1-2 2H8a2 2 0 0 1-2-2z"/><path d="M5 8a7 7 0 0 1 14 0"/></svg></span><small>Ghee</small></a>
+        <a href="#range" class="tab"><span class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7"><path d="M3 12h18M5 12c0-4 3-7 7-7s7 3 7 7"/><path d="M7 12v6a2 2 0 0 0 2 2h6a2 2 0 0 0 2-2v-6"/></svg></span><small>Staples</small></a>
+        <a href="#range" class="tab"><span class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7"><circle cx="7" cy="9" r="2"/><circle cx="14" cy="7" r="2"/><circle cx="17" cy="14" r="2"/><circle cx="10" cy="15" r="2"/></svg></span><small>Pulses</small></a>
+        <a href="#range" class="tab"><span class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7"><circle cx="12" cy="12" r="9"/><circle cx="9" cy="10" r="1"/><circle cx="14" cy="9" r="1"/><circle cx="15" cy="14" r="1"/><circle cx="10" cy="15" r="1"/></svg></span><small>Snacks &amp; Namkeen</small></a>
+        <a href="#range" class="tab"><span class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7"><path d="M4 21h16M6 21v-7h12v7M8 14a4 4 0 0 1 8 0M12 3v3"/></svg></span><small>Sweets</small></a>
+        <a href="#range" class="tab"><span class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7"><circle cx="12" cy="12" r="9"/><circle cx="9" cy="10" r="1"/><circle cx="15" cy="10" r="1"/><circle cx="13" cy="14" r="1"/></svg></span><small>Biscuits &amp; Cookies</small></a>
+        <a href="#range" class="tab"><span class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7"><path d="M4 21h16M6 21v-7h12v7M8 14a4 4 0 0 1 8 0M12 3v3"/></svg></span><small>Cakes</small></a>
+        <a href="#range" class="tab"><span class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7"><path d="M6 2h12v6a6 6 0 0 1-12 0z"/><path d="M9 14v6h6v-6"/></svg></span><small>Personal Care</small></a>
+        <a href="#range" class="tab"><span class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7"><path d="M9 2h6v3l-1 2v13a2 2 0 0 1-2 2 2 2 0 0 1-2-2V7L9 5z"/></svg></span><small>Oral Care</small></a>
+        <a href="#range" class="tab"><span class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7"><path d="M9 2h6v3l-1 2v13a2 2 0 0 1-2 2 2 2 0 0 1-2-2V7L9 5z"/></svg></span><small>Beverages</small></a>
       </div>
     </div>
   </section>
 
-  <!-- SPOTLIGHT -->
-  <section class="section bg-soft">
+  <!-- ============ EDIBLE OILS SPLIT ============ -->
+  <section class="section" id="oils">
     <div class="container">
-      <div class="split">
-        <div class="reveal">
+      <div class="oil-split reveal">
+        <div>
           <div class="eyebrow">Edible Oils</div>
-          <h2 class="section-title">Purity in Every Drop.<br><span class="red">Health in Every Meal.</span></h2>
-          <p class="section-sub" style="margin:16px 0 22px">Our refined edible oils are carefully processed to ensure purity, taste and nutrition for your family.</p>
-          <ul class="value-list">
-            <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg> 100% Pure &amp; Refined</li>
-            <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg> Rich in Natural Goodness</li>
-            <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg> Ideal for Everyday Cooking</li>
-            <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg> Hygienically Packed</li>
+          <h2 class="section-title"><span class="t-navy">Purity in every drop.</span><br><span class="red">Health</span> <span class="t-navy">in every meal.</span></h2>
+          <p class="section-sub" style="margin:14px 0 22px;max-width:420px">Our refined edible oils are carefully processed to ensure purity, taste and nutrition for your family.</p>
+          <ul class="red-checks">
+            <li><span class="ck"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><polyline points="20 6 9 17 4 12"/></svg></span> 100% Pure &amp; Refined</li>
+            <li><span class="ck"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><polyline points="20 6 9 17 4 12"/></svg></span> Rich in Natural Goodness</li>
+            <li><span class="ck"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><polyline points="20 6 9 17 4 12"/></svg></span> Ideal for Everyday Cooking</li>
+            <li><span class="ck"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><polyline points="20 6 9 17 4 12"/></svg></span> Hygienically Packed</li>
           </ul>
           <a href="#range" class="btn btn-red" style="margin-top:24px">View All Edible Oils <svg class="arr" viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg></a>
         </div>
-        <div class="reveal"><img src="img/hero/products-hero.png" style="border-radius:var(--radius-lg);box-shadow:var(--shadow)" alt="AMBO edible oils"></div>
+        <div><img src="img/extracted/products-oils-pair-1.png" alt="AMBO refined soyabean and sunflower oil" style="border-radius:var(--radius-lg)"></div>
       </div>
     </div>
   </section>
 
-  <!-- WHY OUR PRODUCTS -->
-  <section class="section" style="background:var(--navy);color:#fff">
+  <!-- ============ EXPLORE OUR RANGE ============ -->
+  <section class="section bg-soft" id="range">
     <div class="container">
-      <div class="section-head text-center reveal">
-        <div class="eyebrow" style="color:#ff8a82">Why Choose AMBO Products?</div>
-        <h2 class="section-title" style="color:#fff">Great Quality. <span class="red" style="color:#ff8a82">Honest Value.</span></h2>
+      <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:28px" class="reveal">
+        <h2 class="section-title" style="margin:0">Explore Our Range</h2>
+        <a href="#" class="more" style="color:var(--red);font-weight:600">View All Products →</a>
       </div>
-      <div class="d2r-benefits reveal" style="grid-template-columns:repeat(5,1fr)">
-        <div class="d2r-benefit"><span class="bi" style="background:rgba(255,255,255,.1);color:#fff"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 12l2 2 4-4"/><circle cx="12" cy="12" r="10"/></svg></span><p style="color:#fff">Trusted Quality</p></div>
-        <div class="d2r-benefit"><span class="bi" style="background:rgba(255,255,255,.1);color:#fff"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 2l2.5 7H22l-6 4.5L18.5 21 12 16.5 5.5 21 8 13.5 2 9h7.5z"/></svg></span><p style="color:#fff">Carefully Selected Ingredients</p></div>
-        <div class="d2r-benefit"><span class="bi" style="background:rgba(255,255,255,.1);color:#fff"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg></span><p style="color:#fff">Hygienic &amp; Safe Manufacturing</p></div>
-        <div class="d2r-benefit"><span class="bi" style="background:rgba(255,255,255,.1);color:#fff"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 1v22M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"/></svg></span><p style="color:#fff">Value for Money</p></div>
-        <div class="d2r-benefit"><span class="bi" style="background:rgba(255,255,255,.1);color:#fff"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20.8 4.6a5.5 5.5 0 0 0-7.8 0L12 5.6l-1-1a5.5 5.5 0 0 0-7.8 7.8l1 1L12 21l7.8-7.6 1-1a5.5 5.5 0 0 0 0-7.8z"/></svg></span><p style="color:#fff">Loved by Millions</p></div>
+      <div class="range-grid reveal">
+        <div class="range-card"><div class="rc-img"><img src="img/extracted/products-r1-1.png" alt="AMBO Ghee"></div><h4>Ghee</h4><span class="arrow-dot">→</span></div>
+        <div class="range-card"><div class="rc-img"><img src="img/extracted/products-r1-2.png" alt="AMBO Staples"></div><h4>Staples</h4><span class="arrow-dot">→</span></div>
+        <div class="range-card"><div class="rc-img"><img src="img/extracted/products-r1-3.png" alt="AMBO Pulses"></div><h4>Pulses</h4><span class="arrow-dot">→</span></div>
+        <div class="range-card"><div class="rc-img"><img src="img/extracted/products-r1-4.png" alt="AMBO Snacks & Namkeen"></div><h4>Snacks &amp; Namkeen</h4><span class="arrow-dot">→</span></div>
+        <div class="range-card"><div class="rc-img"><img src="img/extracted/products-r1-5.png" alt="AMBO Sweets"></div><h4>Sweets</h4><span class="arrow-dot">→</span></div>
+        <div class="range-card"><div class="rc-img"><img src="img/extracted/products-r2-1.png" alt="AMBO Biscuits & Cookies"></div><h4>Biscuits &amp; Cookies</h4><span class="arrow-dot">→</span></div>
+        <div class="range-card"><div class="rc-img"><img src="img/extracted/products-r2-2.png" alt="AMBO Cakes"></div><h4>Cakes</h4><span class="arrow-dot">→</span></div>
+        <div class="range-card"><div class="rc-img"><img src="img/extracted/products-r2-3.png" alt="AMBO Personal Care"></div><h4>Personal Care</h4><span class="arrow-dot">→</span></div>
+        <div class="range-card"><div class="rc-img"><img src="img/extracted/products-r2-4.png" alt="AMBO Oral Care"></div><h4>Oral Care</h4><span class="arrow-dot">→</span></div>
+        <div class="range-card"><div class="rc-img"><img src="img/extracted/products-r2-5.png" alt="AMBO Beverages"></div><h4>Beverages</h4><span class="arrow-dot">→</span></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ WHY CHOOSE AMBO ============ -->
+  <section class="section">
+    <div class="container">
+      <div class="dark-band reveal">
+        <div class="text-center" style="margin-bottom:28px">
+          <h2 style="color:#fff;font-size:clamp(1.5rem,2.6vw,2rem)">Why Choose <span style="color:#ff8a82">AMBO</span> Products?</h2>
+        </div>
+        <div class="why-strip">
+          <div class="wi"><span class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M12 2l2.4 7.4H22l-6 4.5 2.3 7.1L12 16.5 5.7 21l2.3-7.1-6-4.5h7.6z"/></svg></span><h5>Trusted Quality</h5><p>Consistent quality you can rely on.</p></div>
+          <div class="wi"><span class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M12 2C7 7 6 11 6 14a6 6 0 0 0 12 0c0-3-1-7-6-12z"/><path d="M12 22V11"/></svg></span><h5>Carefully Selected Ingredients</h5><p>We choose the best, so you get the best.</p></div>
+          <div class="wi"><span class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/><path d="M9 12l2 2 4-4"/></svg></span><h5>Hygienic &amp; Safe Manufacturing</h5><p>Made in modern facilities with strict quality control.</p></div>
+          <div class="wi"><span class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M6 3h12M6 8h12M9 3c0 6 6 5 6 11a3 3 0 0 1-6 0"/></svg></span><h5>Value for Money</h5><p>Premium quality at affordable prices.</p></div>
+          <div class="wi"><span class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M22 21v-2a4 4 0 0 0-3-3.87"/></svg></span><h5>Loved by Millions</h5><p>Trusted by families across India.</p></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ PROMISE CTA ============ -->
+  <section class="section">
+    <div class="container">
+      <div class="cta-band red reveal" style="padding:0;overflow:hidden;display:grid;grid-template-columns:1.3fr 1fr;align-items:center;gap:0">
+        <div style="padding:46px 48px">
+          <h3>Our promise is simple –<br>Great quality. Honest value. Every day.</h3>
+          <a href="#range" class="btn btn-white" style="margin-top:24px">Explore All Products <svg class="arr" viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg></a>
+        </div>
+        <div style="position:relative;min-height:230px"><img src="img/extracted/products-rice.png" alt="Bowl of cooked rice" style="position:absolute;inset:0;width:100%;height:100%;object-fit:cover"></div>
       </div>
     </div>
   </section>
